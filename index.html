@@ -3,23 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arnav Wadalkar</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Arnav Wadalkar — Physics Articles & Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .contact {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .contact a {
+      color: #2c3e50;
+      text-decoration: none;
+    }
+    .container {
+      margin-top: 2rem;
+      max-width: 600px;
+      width: 100%;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    a.article-link {
+      text-decoration: none;
+      color: #2980b9;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+    a.article-link:hover {
+      color: #1c5980;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
+
+  <h1>Arnav Wadalkar</h1>
+  <div class="contact">
+    <p>
+      📧 <a href="mailto:arnavwadalkar17@gmail.com">arnavwadalkar17@gmail.com</a><br>
+      🔗 <a href="https://www.linkedin.com/in/arnav-wadalkar" target="_blank">LinkedIn Profile</a>
+    </p>
+  </div>
+
   <div class="container">
-    <h1>Arnav Wadalkar</h1>
-    <p>Physics Undergraduate | Research in Astrophysics & Particle Physics</p>
-
-    <h2>📄 Resume</h2>
-    <p><a href="resume.pdf" target="_blank">Download my resume</a></p>
-
-    <h2>📚 Articles</h2>
+    <h2>📄 Articles</h2>
     <ul>
-      <li><a href="lane-emden.pdf" target="_blank">Lane–Emden Equation and Polytropic EOS</a></li>
-      <li><a href="chandrasekhar.pdf" target="_blank">Chandrasekhar Limit and Core Collapse</a></li>
+      <li><a class="article-link" href="Lane Emden Equation Article_compressed.pdf" target="_blank">Lane–Emden Equation Article</a></li>
+      <li><a class="article-link" href="chandrasekhar-limit_compressed.pdf" target="_blank">Chandrasekhar Limit Article</a></li>
+      <li><a class="article-link" href="Predicting the Hubble Parameter and the Age of the Universe_compressed.pdf" target="_blank">Predicting the Hubble Parameter and the Age of the Universe</a></li>
     </ul>
   </div>
+
+  <footer>
+    &copy; 2025 Arnav Wadalkar
+  </footer>
+
 </body>
 </html>
-
